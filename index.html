@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form method="POST" name="denuncia" action="send.php">
+      <label for="email">E-mail: </label>
+      <input type="email" name="email" id="email" />
+      <br />
+      <label for="title">* Asunto: </label>
+      <input type="text" required name="title" id="title" />
+      <br />
+      <label for="message">* Mensaje: </label>
+      <input type="text" required name="message" id="message" />
+      <br />
+      <br />
+      <br />
+      <input type="submit" value="Enviar" />
+      <br />
+      <label>* Campos requeridos</label>
+    </form>
+  </body>
+</html>
